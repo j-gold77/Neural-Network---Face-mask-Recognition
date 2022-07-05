@@ -1,0 +1,15 @@
+To run the code with the desired model use 
+
+modelB = TheModelBClass(*args, **kwargs)
+modelB.load_state_dict(torch.load(PATH), strict=False)
+
+Use modelB for your variable when running the CNN. 
+
+To run the program.
+1) Download the dataset
+2) Make sure you have all the imports installed already.
+2) Update the path in line 13, meaning dataset = torchvision.datasets.ImageFolder('/Users/jgold/Documents/GitHub/Artifical-Intelligence-Project/Dataset', 
+                                                transform=transformation) for the dataset 
+3) Run the program.
+
+You're set!
